@@ -4,7 +4,7 @@ import os
 from PIL import Image
 
 # === Define your chart folder ===
-chart_folder = r"C:\Users\ty10b\Dropbox\CRAFT\7.24.2025 - Finance Forecast\charts"
+chart_folder = r"C:/your/local/path"
 
 # === List of chart file names ===
 chart_files = [
