@@ -5,7 +5,7 @@ import re
 import statsmodels.api as sm
 
 # === PATHS ===
-base_dir = r"C:/Users/ty10b/Dropbox/CRAFT/7.24.2025 - Finance Forecast"
+base_dir = r"C:/your/local/path"
 summary_dir = os.path.join(base_dir, "data")
 output_csv = os.path.join(base_dir, "data/summary_table.csv")
 
