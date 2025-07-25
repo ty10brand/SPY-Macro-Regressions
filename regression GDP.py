@@ -7,7 +7,7 @@ import statsmodels.api as sm
 import os
 
 # === PATHS ===
-base_dir = r"C:/Users/ty10b/Dropbox/CRAFT/7.24.2025 - Finance Forecast"
+base_dir = r"C:/your/local/path"
 spy_path = os.path.join(base_dir, "data/macro_individual_csvs/SPY_Adj_Close.csv")
 macro_path = os.path.join(base_dir, "data/macro_individual_csvs/GDP.csv")  # <-- GDP here
 plot_output = os.path.join(base_dir, "charts/regression_SPY_vs_GDP.png")
