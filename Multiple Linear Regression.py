@@ -7,7 +7,7 @@ import statsmodels.api as sm
 import os
 
 # === PATHS ===
-base_dir = r"C:/Users/ty10b/Dropbox/CRAFT/7.24.2025 - Finance Forecast"
+base_dir = base_path = r"C:/your/local/path"
 macro_dir = os.path.join(base_dir, "data/macro_individual_csvs")
 spy_path = os.path.join(macro_dir, "SPY_Adj_Close.csv")
 summary_output_path = os.path.join(base_dir, "data/regression_summary_SPY_vs_AllMacros.txt")
